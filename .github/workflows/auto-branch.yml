@@ -4,6 +4,10 @@ on:
   projects_v2_item:
     types: [edited]
 
+permissions:
+  contents: write
+  issues: write
+
 jobs:
   create-branch:
     runs-on: ubuntu-latest
